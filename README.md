@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Govindapuram Goshala - Professional Website
 
-## Getting Started
+A premium, organic-themed website for Govindapuram Goshala showcasing pure A2 Organic Bilona Cow Ghee and community empowerment initiatives.
 
-First, run the development server:
+## 🌿 Features
 
+- **Modern Tech Stack**: Next.js 16, TypeScript, Tailwind CSS
+- **Fully Responsive**: Mobile-first design with beautiful animations
+- **SEO Optimized**: Meta tags, OpenGraph, semantic HTML
+- **Professional Design**: Organic color palette (deep green, ghee gold, earth brown)
+- **7 Complete Pages**:
+  - Home (Hero, About Preview, Process, Products, Social Impact)
+  - About Us (Vision, Mission, Values)
+  - Our Process (Traditional Bilona Method - 6 Steps)
+  - Products (A2 Ghee + Coming Soon items)
+  - Social Impact (Women Empowerment, Skill Development)
+  - Gallery (Photo & Video showcases)
+  - Contact (Form + WhatsApp integration)
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+**IMPORTANT**: You need Node.js 20.9.0 or higher for Next.js 16.
+
+Check your current Node.js version:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+node --version
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you're on Node.js 18, upgrade using:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Using nvm (Recommended)
+```bash
+# Install nvm if you don't have it
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Close and reopen terminal, then:
+nvm install 20
+nvm use 20
+nvm alias default 20
+```
 
-## Learn More
+#### Using Homebrew (macOS)
+```bash
+brew update
+brew upgrade node
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Install Dependencies**
+```bash
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Run Development Server**
+```bash
+npm run dev
+```
 
-## Deploy on Vercel
+3. **Open Browser**
+Navigate to http://localhost:3000
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 Customization Guide
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 1. Update Contact Information
+
+**components/WhatsAppButton.tsx** - Line 14
+Replace phoneNumber with your real WhatsApp number
+
+**components/Footer.tsx** - Update phone, email, address
+
+**app/contact/page.tsx** - Update all contact details
+
+### 2. Add Real Images
+
+1. Create `/public/images/` folder
+2. Add your photos (cows, ghee, process, team)
+3. Replace Unsplash URLs in all pages with `/images/your-photo.jpg`
+
+### 3. Update Business Info
+
+- Add real phone numbers
+- Add Google Maps embed code
+- Update product pricing
+- Add certifications (FSSAI, etc.)
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+Creates `out/` folder for deployment.
+
+## ☁️ AWS Deployment
+
+1. Create S3 bucket
+2. Upload `out/` contents
+3. Configure CloudFront
+4. Setup domain DNS
+
+See full deployment guide in README.
+
+---
+
+**Built with ❤️ for sustainable living**
