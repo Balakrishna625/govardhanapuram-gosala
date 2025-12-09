@@ -24,11 +24,29 @@ export const metadata: Metadata = {
   title: "Govardhanapuram Gosala | Pure A2 Organic Bilona Cow Ghee",
   description: "Pure A2 Organic Bilona Cow Ghee, carefully handcrafted at our sustainable gosala in Govardhanapuram. We support rural livelihoods, preserve ancient traditions, and deliver uncompromised purity to your home.",
   keywords: "organic ghee, A2 ghee, bilona ghee, cow ghee, traditional ghee, govardhanapuram, gosala, organic dairy",
+  icons: {
+    icon: '/icon.png',
+    apple: '/apple-icon.png',
+  },
   openGraph: {
     title: "Govardhanapuram Gosala | Pure A2 Organic Bilona Cow Ghee",
     description: "Pure A2 Organic Bilona Cow Ghee, carefully handcrafted at our sustainable gosala in Govardhanapuram. We support rural livelihoods, preserve ancient traditions, and deliver uncompromised purity to your home.",
     type: "website",
     locale: "en_IN",
+    images: [
+      {
+        url: '/hero.png',
+        width: 1200,
+        height: 630,
+        alt: 'Govardhanapuram Gosala - Pure A2 Organic Bilona Cow Ghee',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Govardhanapuram Gosala | Pure A2 Organic Bilona Cow Ghee",
+    description: "Pure A2 Organic Bilona Cow Ghee, carefully handcrafted at our sustainable gosala in Govardhanapuram.",
+    images: ['/hero.png'],
   },
 };
 
