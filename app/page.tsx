@@ -30,22 +30,22 @@ export default function Home() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-20 container-custom text-center px-4">
+        <div className="relative z-20 container-custom text-center px-4 py-8">
           <div className="animate-fade-in">
             {/* Main Heading */}
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-white mb-6 animate-slide-up drop-shadow-lg">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white mb-4 sm:mb-6 animate-slide-up drop-shadow-lg">
               Govardhanapuram Gosala
             </h1>
-            <p className="text-2xl md:text-3xl text-ghee-300 font-serif italic mb-4 drop-shadow-md">
+            <p className="text-lg sm:text-xl md:text-3xl text-ghee-300 font-serif italic mb-3 sm:mb-4 drop-shadow-md">
               Pure. Traditional. Sustainable.
             </p>
-            <p className="text-lg md:text-xl text-white max-w-3xl mx-auto mb-12 leading-relaxed drop-shadow-md">
+            <p className="text-sm sm:text-base md:text-xl text-white max-w-3xl mx-auto mb-6 sm:mb-8 md:mb-12 leading-relaxed drop-shadow-md px-2">
               Pure A2 Organic Bilona Cow Ghee, carefully handcrafted at our sustainable gosala in Govardhanapuram. 
               We support rural livelihoods, preserve ancient traditions, and deliver uncompromised purity to your home.
             </p>
 
             {/* Feature Pills */}
-            <div className="flex flex-wrap justify-center gap-4 mb-12">
+            <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 mb-6 sm:mb-8 md:mb-12">
               {[
                 { icon: Leaf, text: '100% Natural' },
                 { icon: Shield, text: 'Chemical Free' },
@@ -54,10 +54,10 @@ export default function Home() {
               ].map((item, index) => (
                 <div
                   key={index}
-                  className="flex items-center space-x-2 bg-black/40 backdrop-blur-md border border-ghee-400/50 rounded-full px-6 py-3 shadow-lg"
+                  className="flex items-center space-x-1.5 sm:space-x-2 bg-black/40 backdrop-blur-md border border-ghee-400/50 rounded-full px-3 sm:px-4 md:px-6 py-2 sm:py-2.5 md:py-3 shadow-lg"
                 >
-                  <item.icon className="w-5 h-5 text-ghee-400" />
-                  <span className="text-white font-semibold">{item.text}</span>
+                  <item.icon className="w-4 h-4 sm:w-5 sm:h-5 text-ghee-400" />
+                  <span className="text-white font-semibold text-xs sm:text-sm md:text-base">{item.text}</span>
                 </div>
               ))}
             </div>
