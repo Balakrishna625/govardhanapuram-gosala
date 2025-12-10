@@ -204,7 +204,7 @@ export default function ImpactPage() {
                 organic dhoop sticks manufacturing initiative using natural cow dung and herbal ingredients.
               </p>
               <p className="text-body mb-6">
-                Local women from Govardhanapuram village are trained in the traditional process of converting cow 
+                Local women from in and around Govardhanapuram villages — Chinna Gujjuwada and Pedda Gujjuwada — are trained in the traditional process of converting cow 
                 dung into eco-friendly dhoop sticks and organic incense products. This initiative not only preserves 
                 age-old knowledge but also provides stable income, dignity of work, and financial independence to 
                 rural women.

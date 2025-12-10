@@ -121,6 +121,8 @@ export default function Home() {
               <h2 className="heading-lg mb-6">
                 Preserving Traditions,<br />
                 <span className="gradient-text">Empowering Communities</span>
+                <br />
+                <span className="text-base font-medium block mt-2 text-primary-800">in and around Govardhanapuram villages — Chinna Gujjuwada and Pedda Gujjuwada</span>
               </h2>
               <p className="text-body mb-6">
                 At Govardhanapuram Gosala, we follow age-old Indian traditions to produce pure A2 Bilona 
