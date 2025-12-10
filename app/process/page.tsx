@@ -130,7 +130,6 @@ export default function ProcessPage() {
               <p className="text-xl text-primary-800 italic">
                 Prepared slowly, through traditional samskāra
               </p>
-              <footer className="mt-2 text-sm text-primary-600">Shaped by Agni, Kala &amp; Samskāra</footer>
             </blockquote>
             <p className="text-body mb-6">
               At our gosala, ghee is not rushed. From milk to ghee, every step passes through gentle Agni (fire), 
