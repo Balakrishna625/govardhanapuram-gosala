@@ -216,8 +216,8 @@ export default function ProcessPage() {
               </p>
               <div className="bg-white p-6 rounded-lg mt-6">
                 <p className="text-lg font-semibold text-primary-900 mb-3 text-center italic">
-                  "Sneha nam uttamam sarpi, vaya sthanam param"
-                </p>
+                    "Snehanām uttamaṁ sarpiḥ, vayasaḥ sthānaṁ param"
+                  </p>
                 <p className="text-center text-primary-700">
                   Among all fats, ghee is supreme. For maintaining youth and vitality, nothing surpasses it.
                 </p>
