@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'About Us | Govardhanapuram Gosala',
-  description: 'Learn about Govardhanapuram Gosala mission to protect desi cows, preserve ancient bilona ghee making traditions, and create sustainable livelihood opportunities.',
+  description: 'Learn about Govardhanapuram Gosala mission to protect desi cows, preserve ancient bilona ghee making traditions, and create sustainable livelihood opportunities in and around Govardhanapuram villages — Pedda Gujjuwada, Chinna Gujjuwada.'
 };
 
 export default function AboutPage() {
@@ -92,7 +92,7 @@ export default function AboutPage() {
               <p>
                 Govardhanapuram Gosala was established with a simple yet powerful mission — to protect desi cows, 
                 preserve ancient bilona ghee making traditions, and create sustainable livelihood opportunities 
-                for the local rural community of Govardhanapuram.
+                for communities in and around Govardhanapuram villages like Chinna Gujjuwada and Pedda Gujjuwada.
               </p>
               <p>
                 We operate entirely using natural and chemical-free methods, ensuring the highest quality of 
