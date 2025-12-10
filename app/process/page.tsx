@@ -126,9 +126,12 @@ export default function ProcessPage() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <p className="text-xl text-primary-800 mb-4 italic">
-              Prepared slowly, through traditional samskāra
-            </p>
+            <blockquote className="mb-4 rounded-md bg-primary-50 border-l-4 border-primary-600 pl-6 py-4">
+              <p className="text-xl text-primary-800 italic">
+                Prepared slowly, through traditional samskāra
+              </p>
+              <footer className="mt-2 text-sm text-primary-600">Shaped by Agni, Kala &amp; Samskāra</footer>
+            </blockquote>
             <p className="text-body mb-6">
               At our gosala, ghee is not rushed. From milk to ghee, every step passes through gentle Agni (fire), 
               Kala (time), and careful transformation known as samskāra. This slow process is what makes our ghee 
