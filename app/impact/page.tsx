@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Social Impact | Govardhanapuram Gosala',
-  description: 'Learn how Govardhanapuram Gosala empowers rural communities through skill development, women empowerment, and sustainable livelihoods.',
+  description: 'Learn how Govardhanapuram Gosala empowers rural communities in and around Govardhanapuram villages — Pedda Gujjuwada, Chinna Gujjuwada — through skill development, women empowerment, and sustainable livelihoods.'
 };
 
 export default function ImpactPage() {
@@ -226,12 +226,7 @@ export default function ImpactPage() {
                 ))}
               </ul>
 
-              <div className="bg-pink-50 border border-pink-200 rounded-xl p-6">
-                <p className="text-primary-800 font-medium">
-                  "Many families in Govindapuram now depend on this activity as a primary or secondary source 
-                  of income. Every dhoop stick supports a rural family directly."
-                </p>
-              </div>
+              {/* Quote removed as requested */}
             </div>
           </div>
         </div>
