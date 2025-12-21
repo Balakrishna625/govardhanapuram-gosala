@@ -9,7 +9,9 @@ import {
   CheckCircle,
   ArrowRight,
   Sparkles,
-  Award
+  Award,
+  Video,
+  Radio
 } from 'lucide-react';
 import WhatsAppButton from '@/components/WhatsAppButton';
 
@@ -63,7 +65,7 @@ export default function Home() {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
               <WhatsAppButton className="w-full sm:w-auto">
                 Buy Our Ghee
               </WhatsAppButton>
@@ -74,6 +76,28 @@ export default function Home() {
                 <Heart className="w-5 h-5" />
                 <span>Support Our Goshala</span>
               </Link>
+            </div>
+
+            {/* Video & Live Feed Buttons */}
+            <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
+              <a
+                href="https://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center space-x-2 bg-red-600/90 backdrop-blur-md border-2 border-red-500 text-white hover:bg-red-700 font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:scale-105 w-full sm:w-auto text-sm"
+              >
+                <Radio className="w-4 h-4 animate-pulse" />
+                <span>Watch Live Gosala</span>
+              </a>
+              <a
+                href="https://youtu.be/BsJ8KpagtyU"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center space-x-2 bg-primary-600/90 backdrop-blur-md border-2 border-primary-500 text-white hover:bg-primary-700 font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:scale-105 w-full sm:w-auto text-sm"
+              >
+                <Video className="w-4 h-4" />
+                <span>See Our Ghee Process</span>
+              </a>
             </div>
           </div>
         </div>
