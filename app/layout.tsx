@@ -22,7 +22,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Govardhanapuram Gosala | Pure A2 Organic Bilona Cow Ghee",
-  description: "Pure A2 Organic Bilona Cow Ghee, carefully handcrafted at our sustainable gosala in Govardhanapuram. We support rural livelihoods, preserve ancient traditions, and deliver uncompromised purity to your home.",
+  description: "Pure A2 Organic Bilona Cow Ghee, carefully handcrafted at our sustainable gosala in and around Govardhanapuram villages — Pedda Gujjuwada, Chinna Gujjuwada. We support rural livelihoods, preserve ancient traditions, and deliver uncompromised purity to your home.",
   keywords: "organic ghee, A2 ghee, bilona ghee, cow ghee, traditional ghee, govardhanapuram, gosala, organic dairy",
   icons: {
     icon: '/icon.png',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Govardhanapuram Gosala | Pure A2 Organic Bilona Cow Ghee",
-    description: "Pure A2 Organic Bilona Cow Ghee, carefully handcrafted at our sustainable gosala in Govardhanapuram. We support rural livelihoods, preserve ancient traditions, and deliver uncompromised purity to your home.",
+    description: "Pure A2 Organic Bilona Cow Ghee, carefully handcrafted at our sustainable gosala in and around Govardhanapuram villages — Pedda Gujjuwada, Chinna Gujjuwada. We support rural livelihoods, preserve ancient traditions, and deliver uncompromised purity to your home.",
     type: "website",
     locale: "en_IN",
     images: [
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: "Govardhanapuram Gosala | Pure A2 Organic Bilona Cow Ghee",
-    description: "Pure A2 Organic Bilona Cow Ghee, carefully handcrafted at our sustainable gosala in Govardhanapuram.",
+    description: "Pure A2 Organic Bilona Cow Ghee, carefully handcrafted at our sustainable gosala in and around Govardhanapuram villages — Pedda Gujjuwada, Chinna Gujjuwada.",
     images: ['/hero.png'],
   },
 };

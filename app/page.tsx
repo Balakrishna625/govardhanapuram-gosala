@@ -46,58 +46,41 @@ export default function Home() {
               We support rural livelihoods, preserve ancient traditions, and deliver uncompromised purity to your home.
             </p>
 
-            {/* Feature Pills */}
-            <div className="flex flex-wrap justify-center gap-2 sm:gap-3 md:gap-4 mb-6 sm:mb-8 md:mb-12">
-              {[
-                { icon: Leaf, text: '100% Natural' },
-                { icon: Shield, text: 'Chemical Free' },
-                { icon: Users, text: 'Village-Supported' },
-                { icon: Droplet, text: 'Traditional Bilona' },
-              ].map((item, index) => (
-                <div
-                  key={index}
-                  className="flex items-center space-x-1.5 sm:space-x-2 bg-black/40 backdrop-blur-md border border-ghee-400/50 rounded-full px-3 sm:px-4 md:px-6 py-2 sm:py-2.5 md:py-3 shadow-lg"
-                >
-                  <item.icon className="w-4 h-4 sm:w-5 sm:h-5 text-ghee-400" />
-                  <span className="text-white font-semibold text-xs sm:text-sm md:text-base">{item.text}</span>
-                </div>
-              ))}
-            </div>
-
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-              <WhatsAppButton className="w-full sm:w-auto">
-                Buy Our Ghee
-              </WhatsAppButton>
-              <Link
-                href="/impact"
-                className="inline-flex items-center justify-center space-x-2 bg-white/10 backdrop-blur-md border-2 border-white text-white hover:bg-white hover:text-primary-900 font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 w-full sm:w-auto"
-              >
-                <Heart className="w-5 h-5" />
-                <span>Support Our Goshala</span>
-              </Link>
-            </div>
-
-            {/* Video & Live Feed Buttons */}
-            <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
+            {/* CTA Buttons Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+              {/* Watch Live Gosala */}
               <a
                 href="https://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center space-x-2 bg-red-600/90 backdrop-blur-md border-2 border-red-500 text-white hover:bg-red-700 font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:scale-105 w-full sm:w-auto text-sm"
+                className="inline-flex items-center justify-center space-x-2 bg-red-600/90 backdrop-blur-md border-2 border-red-500 text-white hover:bg-red-700 font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:scale-105 text-sm"
               >
                 <Radio className="w-4 h-4 animate-pulse" />
                 <span>Watch Live Gosala</span>
               </a>
-              <a
-                href="https://youtu.be/BsJ8KpagtyU"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center space-x-2 bg-primary-600/90 backdrop-blur-md border-2 border-primary-500 text-white hover:bg-primary-700 font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:scale-105 w-full sm:w-auto text-sm"
+
+              {/* View Ghee Batches */}
+              <Link
+                href="/batches"
+                className="inline-flex items-center justify-center space-x-2 bg-primary-600/90 backdrop-blur-md border-2 border-primary-500 text-white hover:bg-primary-700 font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:scale-105 text-sm"
               >
                 <Video className="w-4 h-4" />
-                <span>See Our Ghee Process</span>
-              </a>
+                <span>View Ghee Batches</span>
+              </Link>
+
+              {/* Buy Our Ghee */}
+              <WhatsAppButton className="w-full">
+                Buy Our Ghee
+              </WhatsAppButton>
+
+              {/* Support Our Goshala */}
+              <Link
+                href="/impact"
+                className="inline-flex items-center justify-center space-x-2 bg-white/10 backdrop-blur-md border-2 border-white text-white hover:bg-white hover:text-primary-900 font-semibold px-6 py-3 rounded-full transition-all duration-300 hover:scale-105"
+              >
+                <Heart className="w-5 h-5" />
+                <span>Support Our Goshala</span>
+              </Link>
             </div>
           </div>
         </div>

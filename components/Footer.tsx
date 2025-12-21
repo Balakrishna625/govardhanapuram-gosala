@@ -20,7 +20,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-primary-200 text-sm leading-relaxed">
-              Pure A2 Organic Bilona Cow Ghee, carefully handcrafted at our sustainable gosala in Govardhanapuram. We support rural livelihoods, preserve ancient traditions, and deliver uncompromised purity to your home.
+              Pure A2 Organic Bilona Cow Ghee, carefully handcrafted at our sustainable gosala in and around Govardhanapuram villages — Pedda Gujjuwada, Chinna Gujjuwada. We support rural livelihoods, preserve ancient traditions, and deliver uncompromised purity to your home.
             </p>
             <div className="flex space-x-4 mt-6">
               <a href="#" className="w-10 h-10 bg-primary-800 hover:bg-ghee-400 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
